@@ -9,8 +9,8 @@
   </head>
   <body>
     <div class="container">
-      <button id="button">Tell Me A Joke</button>
-      <audio id="audio" controls></audio>
+      <button id="button" onClick="getJokes()">Tell Me A Joke</button>
+      <audio id="audio" ended="toggleButton" controls hidden></audio>
     </div>
     <!-- Script -->
     <script src="script.js"></script>
